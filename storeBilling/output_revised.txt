@@ -1,0 +1,5 @@
+
+testSaleTaxCalculation=true
+testItemPurchasedPayable=true
+testDiscountCalculation=true
+testDiscountCalculation=true
