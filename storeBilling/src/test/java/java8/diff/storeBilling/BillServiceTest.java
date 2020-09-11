@@ -25,6 +25,15 @@ public class BillServiceTest {
 		TestUtils.yakshaAssert(TestUtils.currentTest(),value1.equals("500.00")?"true":"false",TestUtils.businessTestFile);
 		TestUtils.yakshaAssert(TestUtils.currentTest(),value2.equals("0.00")?"true":"false",TestUtils.businessTestFile);
 	}
+	@Test
+    public void testExceptionConditon() throws Exception{
+	 yakshaAssert(currentTest(),true,boundaryTestFile);
+      }
+
+	@Test
+	public void testBoundaryCondition() throws Exception {
+	  yakshaAssert(currentTest(),true,exceptionTestFile);
+   }
 
 
 }
